@@ -33,11 +33,9 @@ button {
 }
 
 /* JOINT STYLES!!!!!!!!!!! */
-
-
-
 .content-size {
-    width: 1186px;
+    max-width: 1186px;
+    margin: 0 auto;
 }
 
 .signature {
@@ -92,7 +90,8 @@ button {
 
 .header-wrapper {
     padding-top: 50px;
-    margin: 0 auto;
+
+    /* !TODO! ЗАНЕСТИ В CONTENT-SIZE */
 }
 
 .page-menu {
@@ -118,9 +117,7 @@ button {
 }
 
 /* SECTION 1 */
-main {
-    margin: 0 auto;
-}
+
 
 .illustrations-flex {
     display: flex;
@@ -216,10 +213,6 @@ main {
     padding-right: 15px;
 }
 
-.footer-wrapper {
-    margin: 0 auto;
-}
-
 .footer-header {
     padding: 90px 0 60px 0;
     border-bottom: 1px solid #4D4D4D;
@@ -242,7 +235,6 @@ input {
     width: 220px;
     height: 50px;
 }
-
 
 ::placeholder {
     text-transform: uppercase;
